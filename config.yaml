@@ -1,0 +1,18 @@
+#Config file for definitions of all CONSTANTS
+#used in main.py for correct application running
+#
+#Path for EOL_1 files
+
+PATHS:
+ EOL_1: "C:/Users/alcz11702216/Desktop/EOL_Processing_Files/EOL1_copy/Data2/"
+ EOL_2: "C:/Users/alcz11702216/Desktop/EOL_Processing_Files/EOL2_copy/Data/"
+ EOL_3: "Y:/EOL3_SEP/EOL3_copy 2021-07-01/Data/"
+ EOL_4: "Y:/EOL4_SEP/EOL4_copy 2021-07-01/Data/"
+ EOL_5: "Y:/EOL5_SEP/EOL5_copy 2021-07-01/Data/"
+ EOL_6: "Y:/EOL6_SEP/EOL6_copy 2021-07-01/Data/"
+ EOL_7: "V:/_Public/DG/EOL7_copy/Data/"
+
+#MODE - how script is used, Default: MODE="auto"
+#MODE = "auto" => script is running automaticly as scheduled task
+#MODE = "manual" => input of user is necessary
+MODE: auto
